@@ -1,5 +1,51 @@
 #include<bits/stdc++.h>
 using namespace std;
+void start();
+void wait(int sec);
+int main()
+{
+	string stri = "";
+	int temp = 0;
+	system("@echo off");
+	system("cls");
+	while(1 == 1)
+	{
+		cout<<"Ccmd>";
+		cin>>stri;
+		if(stri == "start")
+		{
+			break;
+		}
+		if(stri == "faststart")
+		{
+			temp = 1;
+			break;
+		}
+		if(stri == "exit")
+		{
+			exit(0);
+		}
+		cout<<"·þÎñ»¹Î´Æô¶¯!";
+	}
+	if(temp == 1)
+	{
+		start();
+	}
+	else
+	{
+		system("cls");
+		cout<<"[¿ØÖÆÌ¨]ÕýÔÚÆô¶¯...\n";
+		wait(3);
+ 	    cout<<"[¿ØÖÆÌ¨]ÕýÔÚ¶ÁÈ¡Êý¾Ý...\n";
+		wait(3);
+		cout<<"[¿ØÖÆÌ¨]ÕýÔÚ×¢²á×¢²á±í...\n";
+		wait(3);
+		system("msg * -time:3 ×¢²á³É¹¦ !");
+		wait(3);
+		cout<<"[¿ØÖÆÌ¨]V-CMDÒÑÆô¶¯£¬ÒÔºó¿ÉÒÔÍ¨¹ýfaststart»½ÐÑ\n";
+		start();
+	}
+}
 void start()
 {
 	system("cls");
@@ -23,51 +69,6 @@ void wait(int sec)
 	}
 	else
 	{
-		system("msg * é”™è¯¯çš„å‡½æ•°è°ƒç”¨ï¼šä½¿ç”¨äº†é”™è¯¯çš„å‚æ•°äºŽwait()");
-	}
-}
-int main()
-{
-	string stri = "";
-	int temp = 0;
-	system("@echo off");
-	system("chcp 65001");
-	system("cls");
-	while(1 == 1)
-	{
-		cout<<"Ccmd>";
-		cin>>stri;
-		if(stri == "start")
-		{
-			break;
-		}
-		if(stri == "faststart")
-		{
-			temp = 1;
-			break;
-		}
-		if(stri == "exit")
-		{
-			exit(0);
-		}
-		cout<<"æœåŠ¡è¿˜æœªå¯åŠ¨ï¼\n";
-	}
-	if(temp == 1)
-	{
-		start();
-	}
-	else
-	{
-		system("cls");
-		cout<<"[æŽ§åˆ¶å°]æ­£åœ¨å¯åŠ¨...\n";
-		wait(3);
- 	    cout<<"[æŽ§åˆ¶å°]æ­£åœ¨è¯»å–æ•°æ®...\n";
-		wait(3);
-		cout<<"[æŽ§åˆ¶å°]æ­£åœ¨æ³¨å†Œæ³¨å†Œè¡¨...\n";
-		wait(3);
-		system("msg * -time:3 Register Successful !");
-		wait(3);
-		cout<<"[æŽ§åˆ¶å°]V-CMDå·²å¯åŠ¨ï¼Œä»¥åŽå¯ä»¥é€šè¿‡faststartå”¤é†’\n";
-		start();
+		system("msg * ´íÎóµÄº¯Êýµ÷ÓÃ£ºÊ¹ÓÃÁË´íÎóµÄ²ÎÊýÓÚwait()");
 	}
 }
