@@ -10,7 +10,7 @@ int main()
 	system("cls");
 	while(1 == 1)
 	{
-		cout<<"\nVcmd>";
+		cout<<"Vcmd>";
 		cin>>stri;
 		if(stri == "start")
 		{
@@ -54,7 +54,7 @@ void start()
 	cout<<"DreamBorderX VirtualCMD [版本 1.0.0]\n (c) 2020 DreamBorderX & GLgele。保留所有权利。 \n";
 	while(1 == 1)
 	{
-		cout<<"Vcmd>";
+		cout<<"\nsVcmd>";
 		cin>>stri;
 		if(stri == "exit")
 		{
