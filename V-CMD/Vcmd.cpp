@@ -62,7 +62,7 @@ void start()
 		}
 		else if(stri == "help")
 		{
-			cout<<"该模拟CMD由GLgele编写。指令在Command.txt里。";
+			cout<<"该模拟CMD由GLgele编写。指令在Command.txt里。\n";
 		}
 		else if(stri == "lincense")
 		{
