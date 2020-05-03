@@ -10,7 +10,7 @@ int main()
 	system("cls");
 	while(1 == 1)
 	{
-		cout<<"Ccmd>";
+		cout<<"Vcmd>";
 		cin>>stri;
 		if(stri == "start")
 		{
