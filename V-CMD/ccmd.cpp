@@ -1,10 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
+string stri = "";
 void start();
 void wait(int sec);
 int main()
 {
-	string stri = "";
 	int temp = 0;
 	system("@echo off");
 	system("cls");
