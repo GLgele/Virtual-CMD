@@ -25,7 +25,7 @@ int main()
 		{
 			exit(0);
 		}
-		cout<<"服务还未启动!";
+		cout<<"服务还未启动! \n";
 	}
 	if(temp == 1)
 	{
