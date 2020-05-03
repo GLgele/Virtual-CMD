@@ -64,6 +64,27 @@ void start()
 		{
 			cout<<"该模拟CMD由GLgele编写。指令在Command.txt里。";
 		}
+		else if(stri == "lincense")
+		{
+			cout<<"请查看lincense文件。\n";
+		}
+		else if(stri == "credits")
+		{
+			cout<<"Dream Border X \n"<<"GLgele \n";
+		}
+		else if(stri == "copyright")
+		{
+			cout<<"(c) 2020 DreamBorderX & GLgele。保留所有权利。 \n";
+		}
+		else if(stri == "exit")
+		{
+			exit(0);
+		}
+		else
+		{
+			cout<<"不存在的命令，请输入help查看帮助！\n";
+		}
+		
 	}
 }
 void wait(int sec)
