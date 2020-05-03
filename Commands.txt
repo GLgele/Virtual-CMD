@@ -5,3 +5,4 @@ copyright   版权信息
 exit        退出
 credits     制作人信息
 license     开源许可
+clear       清屏

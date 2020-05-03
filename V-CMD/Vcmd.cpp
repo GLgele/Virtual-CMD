@@ -51,7 +51,7 @@ void start()
 	system("cls");
 	system("pause");
 	system("cls");
-	cout<<"DreamBorderX VirtualCMD [版本 1.0.0]\n (c) 2020 DreamBorderX & GLgele。保留所有权利。";
+	cout<<"DreamBorderX VirtualCMD [版本 1.0.0]\n (c) 2020 DreamBorderX & GLgele。保留所有权利。 \n";
 	while(1 == 1)
 	{
 		cout<<"Vcmd>";
@@ -79,6 +79,10 @@ void start()
 		else if(stri == "exit")
 		{
 			exit(0);
+		}
+		else if(stri == "clear")
+		{
+			system("cls");
 		}
 		else
 		{
