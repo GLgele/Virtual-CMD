@@ -62,7 +62,7 @@ void start()
 		}
 		else if(stri == "help")
 		{
-			cout<<"该模拟CMD由GLgele编写。指令可在Commands.txt里查看。";
+			cout<<"该模拟CMD由GLgele编写。指令在Command.txt里。";
 		}
 	}
 }
