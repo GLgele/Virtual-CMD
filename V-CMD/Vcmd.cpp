@@ -54,13 +54,15 @@ void start()
 	cout<<"DreamBorderX VirtualCMD [版本 1.0.0]\n (c) 2020 DreamBorderX & GLgele。保留所有权利。";
 	while(1 == 1)
 	{
+		cout<<"Vcmd>";
+		cin>>stri;
 		if(stri == "exit")
 		{
 			exit(0);
 		}
 		else if(stri == "help")
 		{
-			cout<<"该模拟CMD由";
+			cout<<"该模拟CMD由GLgele编写。指令可在Commands.txt里查看。";
 		}
 	}
 }
