@@ -50,6 +50,19 @@ void start()
 {
 	system("cls");
 	system("pause");
+	system("cls");
+	cout<<"DreamBorderX VirtualCMD [版本 1.0.0]\n (c) 2020 DreamBorderX & GLgele。保留所有权利。";
+	while(1 == 1)
+	{
+		if(stri == "exit")
+		{
+			exit(0);
+		}
+		else if(stri == "help")
+		{
+			cout<<"该模拟CMD由";
+		}
+	}
 }
 void wait(int sec)
 {

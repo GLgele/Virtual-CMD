@@ -3,7 +3,8 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "condition_variable": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "iosfwd": "cpp"
     },
     "files.exclude": {
         "**/.classpath": true,
