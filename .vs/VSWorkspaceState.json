@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\V-CMD"
   ],
-  "SelectedNode": "\\.gitattributes",
+  "SelectedNode": "\\V-CMD\\Vcmd.cpp",
   "PreviewInSolutionExplorer": false
 }
