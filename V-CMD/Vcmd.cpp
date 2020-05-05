@@ -1,4 +1,7 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<cstdio>
+#include<cstdlib>
+#include<Windows.h>
 using namespace std;
 string stri = "";
 void start();
@@ -54,7 +57,7 @@ void start()
 	cout<<"DreamBorderX VirtualCMD [版本 1.0.0]\n (c) 2020 DreamBorderX & GLgele。保留所有权利。 \n";
 	while(1 == 1)
 	{
-		cout<<"\nsVcmd>";
+		cout<<"\nVcmd>";
 		cin>>stri;
 		if(stri == "exit")
 		{
