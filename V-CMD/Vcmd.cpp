@@ -61,6 +61,7 @@ void start()
 		cin>>stri;
 		if(stri == "exit")
 		{
+			system("cls");
 			exit(0);
 		}
 		else if(stri == "help")
