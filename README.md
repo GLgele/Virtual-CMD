@@ -1,12 +1,16 @@
 # Virtual-CMD
  A Virtual-CMD on C++
 
-主要文件在V-CMD这个文件夹里，可以直接运行。
+The main files are in the v-cmd folder and can be run directly.
 
-我是用Visual Studio Code编的，为了解决中文乱码的问题我自己做了个头文件放在.vscode文件夹里，有需要的VSCODE使用者可以打开看看，但是编译时注意修改编译器路径。
 
-另：我的解释器是Dev-C++的MinGW64，解释器版本为4.9.2，是支持万能库的，如果你的编译器提示不支持的话可以去下载一个Dev-C++，然后把路径设到Dev-C++的MinGW64。
 
-另：我是用GBK编码编的，可能会产生乱码，请注意。
+I compiled it with visual studio code. In order to solve the problem of Chinese scrambling, I made a header file of my own and put it in the. Vscode folder. Users who need vscode can open it and have a look, but pay attention to modifying the compiler path when compiling.
 
-会Python的可以去我的Virtual-Console看看:https://github.com/GLgele/Virtual-Console
+
+
+Another: my interpreter is mingw64 of DEV-C + +, and the interpreter version is 4.9.2, which supports universal libraries. If your compiler prompts that it doesn't, you can download a DEV-C + +, and then set the path to mingw64 of DEV-C + +.
+
+
+
+If you know python, you can go to my virtual console: https://github.com/glgele/virtual-console
