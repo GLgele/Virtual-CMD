@@ -16,4 +16,4 @@ Another: my interpreter is mingw64 of DEV-C + +, and the interpreter version is 
 If you know python, you can go to my virtual console: https://github.com/glgele/virtual-console
 
 
-中文:
+中文:https://github.com/GLgele/Virtual-CMD/tree/Chinese
