@@ -28,7 +28,7 @@ int main()
 		{
 			exit(0);
 		}
-		cout<<"服务还未启动! \n";
+		cout<<"Service has not been started. \n";
 	}
 	if(temp == 1)
 	{
@@ -37,15 +37,15 @@ int main()
 	else
 	{
 		system("cls");
-		cout<<"[控制台]正在启动...\n";
+		cout<<"[Console]Starting...\n";
 		wait(3);
- 	    cout<<"[控制台]正在读取数据...\n";
+ 	   	cout<<"[Console]Reading data...\n";
 		wait(3);
-		cout<<"[控制台]正在注册注册表...\n";
+		cout<<"[Console]is registering the registry...\n";
 		wait(3);
-		system("msg * -time:3 注册成功 !");
+		system("msg * -time:3 registration succeeded !");
 		wait(3);
-		cout<<"[控制台]V-CMD已启动，以后可以通过faststart唤醒\n";
+		cout<<"[Console]v-cmd has been started, you can wake up through faststart later \n";
 		start();
 	}
 }
@@ -54,7 +54,7 @@ void start()
 	system("cls");
 	system("pause");
 	system("cls");
-	cout<<"DreamBorderX VirtualCMD [版本 1.0.0]\n (c) 2020 DreamBorderX & GLgele。保留所有权利。 \n";
+	cout<<"DreamBorderX VirtualCMD [Ver 1.0.0]\n (c) 2020 DreamBorderX & GLgele銆侫ll rights reserved. \n";
 	while(1 == 1)
 	{
 		cout<<"\nVcmd>";
@@ -66,11 +66,11 @@ void start()
 		}
 		else if(stri == "help")
 		{
-			cout<<"该模拟CMD由GLgele编写。指令在Command.txt里。\n";
+			cout<<"The simulated CMD is written by GLgele. The command is in command.txt.\n";
 		}
 		else if(stri == "lincense")
 		{
-			cout<<"请查看lincense文件。\n";
+			cout<<"Please check the lincense file.\n";
 		}
 		else if(stri == "credits")
 		{
@@ -78,7 +78,7 @@ void start()
 		}
 		else if(stri == "copyright")
 		{
-			cout<<"(c) 2020 DreamBorderX & GLgele。保留所有权利。 \n";
+			cout<<"(c) 2020 DreamBorderX & GLgele銆侫ll rights reserved. \n";
 		}
 		else if(stri == "exit")
 		{
@@ -90,7 +90,7 @@ void start()
 		}
 		else
 		{
-			cout<<"不存在的命令，请输入help查看帮助！\n";
+			cout<<"The command does not exist, please enter help to view help!\n";
 		}
 		
 	}
@@ -113,6 +113,6 @@ void wait(int sec)
 	}
 	else
 	{
-		system("msg * 错误的函数调用：使用了错误的参数于wait()");
+		system("msg * 閿欒鐨勫嚱鏁拌皟鐢細浣跨敤浜嗛敊璇殑鍙傛暟浜巜ait()");
 	}
 }
