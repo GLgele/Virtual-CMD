@@ -1,0 +1,2 @@
+D:\Users\Administrator\Documents\GitHub\Virtual-CMD\V-CMD\x64\Debug\V-CMD.exe
+D:\Users\Administrator\Documents\GitHub\Virtual-CMD\V-CMD\x64\Debug\V-CMD.pdb
