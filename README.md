@@ -11,7 +11,7 @@ I compiled it with visual studio code. In order to solve the problem of Chinese 
 
 Another: my interpreter is mingw64 of DEV-C + +, and the interpreter version is 4.9.2, which supports universal libraries. If your compiler prompts that it doesn't, you can download a DEV-C + +, and then set the path to mingw64 of DEV-C + +.
 
-
+tip：Visual Studio is no longer support.
 
 If you know python, you can go to my virtual console: https://github.com/glgele/virtual-console
 
