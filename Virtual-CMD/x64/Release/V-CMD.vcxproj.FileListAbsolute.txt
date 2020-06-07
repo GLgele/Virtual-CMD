@@ -1,1 +1,2 @@
 C:\Users\ai_mi\Documents\GitHub\Virtual-CMD\V-CMD\x64\Release\V-CMD.exe
+C:\Users\ai_mi\Documents\GitHub\Virtual-CMD\Virtual-CMD\x64\Release\V-CMD.exe

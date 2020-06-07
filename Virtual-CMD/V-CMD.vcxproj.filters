@@ -23,5 +23,8 @@
     <ClInclude Include="vcmd.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="vcmdH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

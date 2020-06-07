@@ -2,6 +2,7 @@
 #include<cstdio>
 #include<cstdlib>
 #include<Windows.h>
+#include "vcmdH.h"
 using namespace std;
 #ifndef _VCMD_H_
 #define _VCMD_H_
@@ -50,19 +51,19 @@ void start()
 		}
 		else if(stri == "help")
 		{
-			cout<<"该模拟CMD由GLgele编写。指令在Command.txt里。\n";
+			help();
 		}
 		else if(stri == "lincense")
 		{
-			cout<<"请查看lincense文件。\n";
+			lincense();
 		}
 		else if(stri == "credits")
 		{
-			cout<<"Dream Border X \n"<<"GLgele \n";
+			credits();
 		}
 		else if(stri == "copyright")
 		{
-			cout<<"(c) 2020 DreamBorderX & GLgele。保留所有权利。 \n";
+			copyright();
 		}
 		else if(stri == "exit")
 		{
@@ -70,7 +71,7 @@ void start()
 		}
 		else if(stri == "clear")
 		{
-			system("cls");
+			clear();
 		}
 		else
 		{
