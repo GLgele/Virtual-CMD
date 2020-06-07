@@ -1,6 +1,9 @@
 # Virtual-CMD
  A Virtual-CMD on C++
 
+English:https://github.com/GLgele/Virtual-CMD/tree/English
+
+
 主要文件在V-CMD这个文件夹里，可以直接运行。
 
 我是用Visual Studio Code编的，为了解决中文乱码的问题我自己做了个头文件放在.vscode文件夹里，有需要的VSCODE使用者可以打开看看，但是编译时注意修改编译器路径。
