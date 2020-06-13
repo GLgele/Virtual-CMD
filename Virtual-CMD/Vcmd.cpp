@@ -7,7 +7,7 @@ using namespace std;
 string stri = "";
 const string ver = "vcmdH.h";
 const string Ver = "vcmd.h";
-const string version = "1.0.0"
+const string version = "1.0.0";
 int main()
 {
 	int temp = 0;
