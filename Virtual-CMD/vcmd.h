@@ -75,7 +75,8 @@ void start()
 		}
 		else
 		{
-			cout<<"不存在的命令，请输入help查看帮助！\n";
+			//cout<<"不存在的命令，请输入help查看帮助！\n";
+			system(stri.c_str());
 		}
 		
 	}
