@@ -28,7 +28,8 @@ void wait(int sec)
 	}
 	else
 	{
-		system("msg * 错误的函数调用：使用了错误的参数于wait()");
+		//system("msg * 错误的函数调用：使用了错误的参数于wait()");
+		Sleep(sec);
 		return;
 	}
 }
@@ -43,7 +44,7 @@ void start()
 	{
 		cout<<"\nVcmd>";
 		string stri;
-		cin>>stri;
+		getline(cin,stri);
 		if(stri == "exit")
 		{
 			system("cls");
