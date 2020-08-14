@@ -16,7 +16,7 @@ int main()
 	while(1 == 1)
 	{
 		cout<<"Vcmd>";
-		cin>>stri;
+		getline(cin,stri);
 		if(stri == "start")
 		{
 			break;
